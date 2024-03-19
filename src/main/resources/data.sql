@@ -1,3 +1,4 @@
+-- Las 3 contraseñas son '12345678'
 INSERT INTO user (username, name, password, role) VALUES ('sergio01', 'sergio rivas', '$2y$10$8a3o3tZjZEyRsYhFh0R9quHGxPAWxHFH4j9V6SXwsPm/C/TS39LVu', 'CUSTOMER');
 INSERT INTO user (username, name, password, role) VALUES ('jperez', 'Juan pérez', '$2y$10$kiL/7mOx3IaDDV4OMGT3Ju9xahXbgTYON.hg35/v.0.6zQSXR2Ify.', 'ASSISTANT_ADMINISTRATOR');
 INSERT INTO user (username, name, password, role) VALUES ('alvarosan', 'Álvaro Sánchez', '$2y$10$afxA3RrxKd2/CXe7biHxhOwpSg8oYMuBz0klGcobeDw9AUEg1886i', 'ADMINISTRATOR');
