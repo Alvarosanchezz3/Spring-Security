@@ -1,0 +1,24 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: spring_security
+    container_name: MySQL_docker-compose-img
+    volumes:
+      - mysql-volume:/var/lib/mysql
+
+  my-app:
+    build: .
+    image: spring_security-img:v1
+    ports:
+      - "8585:9191"
+    container_name: Spring_Security_docker-compose
+    depends_on:
+    - db
+
+volumes:
+  mysql-volume:
