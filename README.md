@@ -17,4 +17,4 @@ Este proyecto implementa una API REST robusta con autenticación basada en **JSO
 
 ## Documentación del proyecto 🗒️
 
-He explicado todo el proceso en un documento público en Google Drive: https://docs.google.com/document/d/1vnzZ3QvvSO0E0mLggKKMDuPOd4-gq6dBL89URtORbZk/edit
+He explicado todo el proceso en un documento público en Google Drive (Punto 4): https://docs.google.com/document/d/1vnzZ3QvvSO0E0mLggKKMDuPOd4-gq6dBL89URtORbZk/edit
