@@ -15,6 +15,18 @@ Este proyecto implementa una API REST robusta con autenticación basada en **JSO
 2. Configura tu base de datos MySQL y las variables de entorno.
 3. Ejecuta el proyecto y prueba los endpoints
 
+## Implementación con Docker 🐳
+1. Clona este repositorio
+2. Asegurate de tener Docker instalado
+3. Crea el contenedor de MySQL con las credenciales del application-docker.properties o cambialas y crealas con las que quieras (igual con la base de datos)
+4. Ejecuta el comando --> mvn clean package -DskipTests para conseguir el jar del proyecto
+5. Ejecuta el comando de docker --> docker-compose up --build -d
+6. Ejecuta el contenedor de la app
+7. DISFRUTA DE LOS ENDPOINTS
+
 ## Documentación del proyecto 🗒️
 
 He explicado todo el proceso en un documento público en Google Drive (Punto 4): https://docs.google.com/document/d/1vnzZ3QvvSO0E0mLggKKMDuPOd4-gq6dBL89URtORbZk/edit
+
+## Video de pruebas de los endpoints 📹:
+https://github.com/Alvarosanchezz3/Spring-Security/assets/99328696/f25bdf07-e645-4977-8d87-902528392dce
