@@ -1,5 +1,6 @@
 package com.alvaro.springsecurity.dto;
 
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 
@@ -11,6 +12,7 @@ public class SaveUser implements Serializable {
     @Size(min = 4)
     private String name;
 
+    @NotBlank
     private String username;
 
     @Size(min = 8)
