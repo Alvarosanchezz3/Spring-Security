@@ -9,6 +9,7 @@ import java.io.Serializable;
 @Data
 public class SaveUser implements Serializable {
 
+    @NotBlank
     @Size(min = 4)
     private String name;
 
